@@ -26,14 +26,12 @@ class contact extends Component {
                                     (123) 456-7890
                                     </ListItemContent>
                                 </ListItem>
-
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-fax" aria-hidden="true"/>
                                     (123) 456-7890
                                 </ListItemContent>
                             </ListItem>
-
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                 <i className="fa fa-envelope" aria-hidden="true"/>
@@ -43,7 +41,7 @@ class contact extends Component {
 
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
-                                <i className="fa fa-skype" aria-hidden="true"/>
+                                <i className="fa fa-github" aria-hidden="true"/>
                                 github username: carolninganga
                             </ListItemContent>
                             </ListItem>
