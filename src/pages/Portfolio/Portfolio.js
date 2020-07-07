@@ -20,8 +20,8 @@ class Portfolio extends Component {
             YesReply uses two APIs Words API and Linguatools to facilitate message generation for “life events”.
             </CardText>
             <CardActions border>
-            <Button target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga/react-github-finder">GitHub</Button>
-            <Button target='_blank' rel="noopener noreferrer" href="https://github-repo-finder23.herokuapp.com/">Link to site</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga/Yes-Reply-Project-One">GitHub</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://carolninganga.github.io/Yes-Reply-Project-One/">Link to site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
