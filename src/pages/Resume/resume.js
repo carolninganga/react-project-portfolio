@@ -24,8 +24,8 @@ class Resume extends Component {
                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
                    <p>I'm a software engineer who's passionate about people, innovation, and executing new ideas. My professional training certification in HTML, CSS and JavaScript have  allowed me to develop an innovative mindset that can be used to create the most optimal experience for people. The thrill of creating user friendly interfaces or more interactive and responsive applications challenge me to use my critical thinking skills in collaboration with other team members to build problem solving projects. Outside of programming, you can find me hiking, food tasting, traveling, or collaborating on projects for needy community. </p>
                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
-                    <h5>Address</h5>
-                    <p>Yonkers New York</p>
+                    <h5>City</h5>
+                    <p>New York</p>
                     <h5>Phone</h5>
                     <p>914-572-0046</p>
                     <h5>Email</h5>
