@@ -37,30 +37,37 @@ class Resume extends Component {
                    <Cell className="resume-right-col" col={8}>
                        <h2>Education</h2>
                        <Education 
-                           startYear={2012}
-                           endYear={2015}
-                           schoolName="Mount Saint Mary College"
-                           schoolDescription="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                       />
-                       <Education 
                            startYear={2020}
                            endYear={2020}
                            schoolName="Columbia University"
-                           schoolDescription="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                           schoolDescription="Participated in a Full Stack professional certification training. Acquired the skills of coding in JavaScript, HTML,Express.js, MonoDB and CSS. Used different tools and technologies to develop user friendly applications. Enjoyed close collaboration with other professionals while receiving hands-on experience, with in-person and online options.."
                        />
+                       <Education 
+                           startYear={2012}
+                           endYear={2015}
+                           schoolName="Mount Saint Mary College"
+                           schoolDescription="Attended two years on a transfer academic honors scholarship from Westchester Community College. Studied Political Science and Economics Minor. Mount Saint Mary is a private college located in Newburgh with a beautiful view of the Hudson river."
+                       />
+                       <Education 
+                           startYear={2010}
+                           endYear={2012}
+                           schoolName="Westchester Community College"
+                           schoolDescription="Attended two years on a full tuition scholarship known as Kathryn Davis Global Communities Scholars. I majored in Liberal Arts and Social Sciences. While attending I also served as the president of the United Nations Model Team which allowed me to travel to over 16 cities on conferences to address matters in development and social economic policies."
+                       />
+                    
                        <hr style={{borderTop : '3px solid #e22947'}} />
                        <h2>Eperience</h2>
                        <Experince 
                            startYear={2014}
                            endYear={2019}
                            jobName="Learn America"
-                           jobDescription="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                           jobDescription="Learn America is an online education company which provides certification in Healthcare and Maritime courses. Worked as office manager and technical support. As manager I served under the company's CEO. I also collaborated on different projects such as submitting a course approval package to the New York State of Education. Trained users on how to use our Learning Management System (LMS). Lastly, I helped with developing new user friendly features for the LMS and helped manage the company website. It is fit to say this is where I discovered I had a passion for technology and web development.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                        />
                        <Experince 
                            startYear={2014}
                            endYear={2019}
-                           jobName="Learn America"
-                           jobDescription="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                           jobName="White Plains"
+                           jobDescription="Through my passion of wanting to help people. This role started purely as a volunteer then the Intensive Care Unit offered me to join the team on Partime basis."
                        />
                     <hr style={{borderTop : '3px solid #e22947'}} />
                     <h2>Skills</h2>
