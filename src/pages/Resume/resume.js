@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Education from './education';
-import Experince from './experience';
-import Skills from './skills';
+import Education from '../../components/education';
+import Experince from '../../components/experience';
+import Skills from '../../components/skills';
 
 import { Grid, Cell } from 'react-mdl';
 

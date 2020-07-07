@@ -1,10 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
+import ReactParticles from 'react-particles-js';
+import particlesConfig from './particles-config.js';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
-class contact extends Component {
-    render() {
-        return (
-            <div className="contact-body">
+import './styles.scss';
+
+function Contact() {
+  return (
+    <div className="main">
+      <Particles>
+        <Hero>
+       
                 <Grid className="contact-grid">
                     <Cell col={6}>
                     <h2>Caroline Ninganga</h2>
@@ -13,7 +19,7 @@ class contact extends Component {
                         alt="profilePic"
                         style={{height: '250px'}}
                     />
-                    <p style={{ width: '75%', margin: 'left: 10px, paddingTop: 1em'}}>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
+                    <p style={{ width: '75%', margin: 'left: 10px, paddingTop: 1em'}}>For more information about the listed projects on my portifolio reach out using my Github.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -23,7 +29,7 @@ class contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
                                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (123) 456-7890
+                                    (914) 572-0046
                                     </ListItemContent>
                                 </ListItem>
                             <ListItem>
@@ -49,10 +55,41 @@ class contact extends Component {
                                 </div>
                         </Cell>
                     </Grid>      
-                </div>
-                
-        )
-    }
+        </Hero>
+      </Particles>
+    </div>
+  );
 }
 
-export default contact;
+
+function Particles({ children }) {
+  return (
+    <div style={{ position: 'relative' }}>
+      <ReactParticles
+        params={particlesConfig}
+        style={{
+          position: 'absolute',
+          zIndex: 1,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          top: 0
+        }}
+      />
+      {children && <div style={{ position: 'relative' }}>{children}</div>}
+    </div>
+  );
+}
+
+function Hero({ children }) {
+  return (
+    <div className="hero">
+      <div className="hero-body">{children}</div>
+    </div>
+  );
+}
+
+
+
+
+export default Contact;
