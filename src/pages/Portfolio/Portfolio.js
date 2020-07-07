@@ -13,45 +13,48 @@ class Portfolio extends Component {
     if(this.state.activeTab === 0){
       return(
         <div className="projects-grid">
-          {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-            </CardText>
-            <CardActions border>
-              <Button onClick={this.navigateToGithub} colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-
-          {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            <h5>Yes Reply Messages</h5>
+            YesReply uses two APIs Words API and Linguatools to facilitate message generation for “life events”.
             </CardText>
             <CardActions border>
             <Button target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga/react-github-finder">GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://github-repo-finder23.herokuapp.com/">Link to site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
 
-          {/* Project 3 */}
+
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.34.52%20PM.png?v=1594089329409) center / cover'}} ></CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            <h5>GitHub Finder</h5>
+            This application was built using react. It uses the github API to search and display 5 repos of a github profile. 
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga/react-github-finder">GitHub</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://github-repo-finder23.herokuapp.com/">Link to site</Button>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          
+
+          {/* Project 3 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.42.38%20PM.png?v=1594089782545) center / cover'}} ></CardTitle>
+            <CardText>
+            <h5>Day Planner</h5>
+            Calendar Application that allows the user to save events for each hour of the day. This app uses moment library.</CardText>
+            <CardActions border>
+            <Button target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga/Day_Planner">GitHub</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://carolninganga.github.io/Day_Planner/">Link to site</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
