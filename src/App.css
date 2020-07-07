@@ -1,6 +1,6 @@
 
 .header-color {
-    background-color: linear-gradient(180deg, #070811, #071016 100%);
+    background: linear-gradient(180deg, #000000, #000000 100%);
   }
 
 .landing-grid {
@@ -93,6 +93,7 @@
 }
 
 .contact-grid {
+    position: relative;
     text-align: center;
     justify-content: center;
     width: 80%;

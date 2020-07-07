@@ -22,7 +22,7 @@ class Resume extends Component {
                    <h2 style={{paddingTop: '2em'}}>Caroline Ninganga</h2>
                    <h4 style={{color: 'grey'}}>Programmer</h4>
                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                   <p>I'm a software engineer who's passionate about people, innovation, and executing new ideas. My professional training certification in HTML, CSS and JavaScript have  allowed me to develop an innovative mindset that can be used to create the most optimal experience for people. The thrill of creating user friendly interfaces or more interactive and responsive applications challenge me to use my critical thinking skills in collaboration with other team members to build problem solving projects. Outside of programming, you can find me hiking, food tasting, traveling, or collaborating on projects for needy community. </p>
                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
                     <h5>Address</h5>
                     <p>Yonkers New York</p>
