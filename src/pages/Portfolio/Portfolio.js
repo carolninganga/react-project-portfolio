@@ -20,7 +20,7 @@ class Portfolio extends Component {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+              <Button onClick={this.navigateToGithub} colored>GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -35,7 +35,7 @@ class Portfolio extends Component {
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
+            <Button target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga/react-github-finder">GitHub</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>

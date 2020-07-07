@@ -10,9 +10,9 @@ import { Grid, Cell } from 'react-mdl';
                 </Cell>
                 <Cell col={8}>
                 <h4 style={{marginTop: '0px'}}>{this.props.schoolName}</h4>
-                <a>{this.props.schoolDescription}</a>
+                <a href>{this.props.schoolDescription}</a>
 
-                Right Side</Cell>
+               </Cell>
 
             </Grid>
             
