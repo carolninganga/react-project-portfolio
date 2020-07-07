@@ -10,10 +10,7 @@ import { Grid, Cell } from 'react-mdl';
                 </Cell>
                 <Cell col={8}>
                 <h4 style={{marginTop: '0px'}}>{this.props.jobName}</h4>
-                <a href="/*">{this.props.jobDescription}</a>
-
-                Right Side</Cell>
-
+                <p style={{ color: "#ffffff"}}>{this.props.jobDescription}</p></Cell>
             </Grid>
             
         )

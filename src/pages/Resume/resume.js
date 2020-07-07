@@ -32,7 +32,7 @@ class Resume extends Component {
                     <p>carolninganga@gmail.com</p>
                     <h5>Web</h5>
                     <p>mywebsite.com</p>
-                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
+                    <hr style={{borderTop: '3px solid #000000', width: '50%'}}/>
                    </Cell>
                    <Cell className="resume-right-col" col={8}>
                        <h2>Education</h2>
@@ -55,13 +55,13 @@ class Resume extends Component {
                            schoolDescription="Attended two years on a full tuition scholarship known as Kathryn Davis Global Communities Scholars. I majored in Liberal Arts and Social Sciences. While attending I also served as the president of the United Nations Model Team which allowed me to travel to over 16 cities on conferences to address matters in development and social economic policies."
                        />
                     
-                       <hr style={{borderTop : '3px solid #e22947'}} />
+                       <hr style={{borderTop : '3px solid #000000'}} />
                        <h2>Eperience</h2>
                        <Experince 
                            startYear={2014}
                            endYear={2019}
                            jobName="Learn America"
-                           jobDescription="Learn America is an online education company which provides certification in Healthcare and Maritime courses. Worked as office manager and technical support. As manager I served under the company's CEO. I also collaborated on different projects such as submitting a course approval package to the New York State of Education. Trained users on how to use our Learning Management System (LMS). Lastly, I helped with developing new user friendly features for the LMS and helped manage the company website. It is fit to say this is where I discovered I had a passion for technology and web development.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                           jobDescription="Learn America is an online education company which provides certification in Healthcare and Maritime courses. Worked as office manager and technical support. As manager I served under the company's CEO. I also collaborated on different projects such as submitting a course approval package to the New York State of Education. Trained users on how to use our Learning Management System (LMS). Lastly, I helped with developing new user friendly features for the LMS and helped manage the company website. It is fit to say this is where I discovered I had a passion for technology and web development."
                        />
                        <Experince 
                            startYear={2014}
