@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+import ReactParticles from 'react-particles-js';
+import particlesConfig from './particles-config.js';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import './style.scss';
+
 
 
 class Portfolio extends Component {
@@ -81,20 +85,48 @@ class Portfolio extends Component {
 
   }
 
-
-
   render() {
     return(
       <div>
+      <Particles>
+      <Hero>
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
+          </Hero>
+      </Particles>
       </div>
     )
+    }}
+
+  function Particles({ children }) {
+    return (
+      <div style={{ position: 'relative' }}>
+        <ReactParticles
+          params={particlesConfig}
+          style={{
+            position: 'absolute',
+            zIndex: 1,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            top: 0
+          }}
+        />
+        {children && <div style={{ position: 'relative' }}>{children}</div>}
+      </div>
+    );
   }
-}
+  
+  function Hero({ children }) {
+    return (
+      <div className="hero">
+        <div className="hero-body">{children}</div>
+      </div>
+    );
+  }
+
 
 export default Portfolio;

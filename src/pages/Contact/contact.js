@@ -3,7 +3,7 @@ import ReactParticles from 'react-particles-js';
 import particlesConfig from './particles-config.js';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
-import './styles.scss';
+import './style.scss';
 
 function Contact() {
   return (
@@ -19,20 +19,18 @@ function Contact() {
                         alt="profilePic"
                         style={{height: '250px'}}
                     />
-                    <p style={{ width: '75%', margin: 'left: 10px, paddingTop: 1em'}}>For more information about the listed projects on my portifolio reach out using my Github.</p>
+                    <p style={{ width: '75%', margin: 'left: 10px, paddingTop: 1em'}}>For more quetions on projects and collaborations please email me or visit my github page.</p>
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
                         <hr/>
                         <div className="contact-list">
                             <List>
-                                <ListItem>
-                                    <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
-                                    <i className="fa fa-phone-square" aria-hidden="true"/>
-                                    (914) 572-0046
-                                    </ListItemContent>
-                                </ListItem>
                             <ListItem>
+                                <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
+                                    <i className="fa fa-fax" aria-hidden="true"/>
+                                    (123) 456-7890
+                                </ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{fontSize: '20px', fontFamily: 'Anton'}}>
@@ -84,8 +82,6 @@ function Hero({ children }) {
     </div>
   );
 }
-
-
 
 
 export default Contact;
