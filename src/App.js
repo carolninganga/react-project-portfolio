@@ -10,18 +10,18 @@ function App() {
   return (
     <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title="Title" scroll>
+        <Header>
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
-                <Link to="/about">About</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
-                <Link to="/about">About</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact</Link>
             </Navigation>

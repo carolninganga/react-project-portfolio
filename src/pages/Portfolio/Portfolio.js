@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 
 class Portfolio extends Component {
@@ -11,7 +11,9 @@ class Portfolio extends Component {
   toggleCategories() {
 
     if(this.state.activeTab === 0){
-      return(
+      return (
+
+   
         <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover'}} ></CardTitle>
@@ -46,7 +48,6 @@ class Portfolio extends Component {
 
           
 
-          {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.42.38%20PM.png?v=1594089782545) center / cover'}} ></CardTitle>
             <CardText>
@@ -85,20 +86,11 @@ class Portfolio extends Component {
   render() {
     return(
       <div>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
-        </Tabs>
-
-
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
 
       </div>
     )
