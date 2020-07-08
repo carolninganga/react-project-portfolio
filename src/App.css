@@ -75,7 +75,7 @@
 }
 
 .resume-right-col {
-    background: -webkit-linear-gradient(to right, #213346);  /* Chrome 10-25, Safari 5.1-6 */
+    background: #5a717d;  /* Chrome 10-25, Safari 5.1-6 */
     color: white;
     padding: 2em;
 }
