@@ -24,22 +24,22 @@ const cards = [
     linkDeployed: "https://carolninganga.github.io/Yes-Reply-Project-One/",
   },
   {
-    title: "2",
+    title: "Jokes App007",
     description:
-      "YesReply uses two APIs Words API and Linguatools to facilitate message generation for “life events”.",
+      "Jokes app was built with react and bootswatch. It uses jokes API to randomly display trendy jokes”.",
     tileImg:
-      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover",
-    linkGitHub: "https://github.com/carolninganga/Yes-Reply-Project-One",
-    linkDeployed: "https://carolninganga.github.io/Yes-Reply-Project-One/",
+      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-08%20at%207.27.06%20PM.png?v=1594250868304) center / cover",
+    linkGitHub: "https://github.com/carolninganga/joke-app",
+    linkDeployed: "https://joke-master007.herokuapp.com/",
   },
   {
-    title: "3",
+    title: "Amazing Github Finder",
     description:
-      "YesReply uses two APIs Words API and Linguatools to facilitate message generation for “life events”.",
+      "An application built to help the user search for github repos and also be directed to the github page. This application uses github API and react.",
     tileImg:
-      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover",
-    linkGitHub: "https://github.com/carolninganga/Yes-Reply-Project-One",
-    linkDeployed: "https://carolninganga.github.io/Yes-Reply-Project-One/",
+      "url(https://user-images.githubusercontent.com/33443452/86619088-ed3e6180-bf87-11ea-8d87-6ec05ebfdcf2.png) center / cover",
+    linkGitHub: "https://github.com/carolninganga/react-github-finder",
+    linkDeployed: "https://github-repo-finder23.herokuapp.com/",
   },
   {
     title: "4",
