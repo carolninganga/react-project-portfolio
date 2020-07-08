@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import ReactParticles from 'react-particles-js';
-import particlesConfig from './particles-config.js';
 import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import './style.scss';
+import './style.css';
 
 
 
@@ -17,7 +15,6 @@ class Portfolio extends Component {
     if(this.state.activeTab === 0){
       return (
 
-   
         <div className="projects-grid">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover'}} ></CardTitle>
@@ -48,9 +45,7 @@ class Portfolio extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
-
-          
+          </Card>   
 
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.42.38%20PM.png?v=1594089782545) center / cover'}} ></CardTitle>
@@ -64,7 +59,7 @@ class Portfolio extends Component {
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
-          </Card>
+          </Card>                       
         </div>
 
 
@@ -88,45 +83,14 @@ class Portfolio extends Component {
   render() {
     return(
       <div>
-      <Particles>
-      <Hero>
           <Grid>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
-          </Grid>
-          </Hero>
-      </Particles>
+          </Grid>   
       </div>
     )
     }}
 
-  function Particles({ children }) {
-    return (
-      <div style={{ position: 'relative' }}>
-        <ReactParticles
-          params={particlesConfig}
-          style={{
-            position: 'absolute',
-            zIndex: 1,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            top: 0
-          }}
-        />
-        {children && <div style={{ position: 'relative' }}>{children}</div>}
-      </div>
-    );
-  }
   
-  function Hero({ children }) {
-    return (
-      <div className="hero">
-        <div className="hero-body">{children}</div>
-      </div>
-    );
-  }
-
-
 export default Portfolio;

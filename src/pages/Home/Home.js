@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import FluidAnimation from "../../react-fluid-animation";
 import LayoutTextFields from "../LayoutTextFields/LayoutTextFields";
 import random from "random";
+import './Home.css';
 
 const defaultConfig = {
   textureDownsample: 1,
@@ -55,13 +56,8 @@ export default class Home extends Component {
             pointerEvents: "none"
           }}
         >
-          <h1
-            style={{
-              fontSize: "3em",
-              textShadow: "2px 2px 8px rgba(0, 0, 0, 0.5)"
-            }}
-          >
-            Katabi
+          <h1 className="HomePageText">
+            Caroline Ning'ang'a
           </h1>
           <LayoutTextFields />
         </div>

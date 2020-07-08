@@ -12,17 +12,14 @@ function Contact() {
         <Hero>
        
                 <Grid className="contact-grid">
-                    <Cell col={6}>
-                    <h2>Caroline Ninganga</h2>
+                    <Cell col={12}>
+                    <h2>Contact Me</h2>
                     <img
                         src="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fcaroline.JPG?v=1593078287303"
                         alt="profilePic"
                         style={{height: '250px'}}
                     />
                     <p style={{ width: '75%', margin: 'left: 10px, paddingTop: 1em'}}>For more quetions on projects and collaborations please email me or visit my github page.</p>
-                    </Cell>
-                    <Cell col={6}>
-                        <h2>Contact Me</h2>
                         <hr/>
                         <div className="contact-list">
                             <List>

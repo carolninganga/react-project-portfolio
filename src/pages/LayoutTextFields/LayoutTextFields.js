@@ -23,7 +23,7 @@ export default function LayoutTextFields() {
         <TextField
           id="standard-full-width"
           style={{ margin: 8 }}
-          placeholder="Enter Event Code"
+          placeholder=""
           fullWidth
           margin="normal"
           InputLabelProps={{
