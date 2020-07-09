@@ -24,40 +24,40 @@ const cards = [
     linkDeployed: "https://carolninganga.github.io/Yes-Reply-Project-One/",
   },
   {
-    title: "Jokes App007",
+    title: "Super Github Finder",
     description:
-      "Jokes app was built with react and bootswatch. It uses jokes API to randomly display trendy jokes”.",
+      "This application was built using react. It uses the github API to search and display 5 repos of a github profile..",
+    tileImg:
+      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.34.52%20PM.png?v=1594089329409) center / cover",
+    linkGitHub: "https://github.com/carolninganga/react-github-finder",
+    linkDeployed: "https://github-repo-finder23.herokuapp.com/",
+  },
+  {
+    title: "Fantastic Joke App",
+    description:
+      "An app that uses jokes API to randomly generate jokes. This application was implemented using axios to fetch the API.",
     tileImg:
       "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-08%20at%207.27.06%20PM.png?v=1594250868304) center / cover",
     linkGitHub: "https://github.com/carolninganga/joke-app",
     linkDeployed: "https://joke-master007.herokuapp.com/",
   },
   {
-    title: "Amazing Github Finder",
+    title: "Hourly Calender Notepad",
     description:
-      "An application built to help the user search for github repos and also be directed to the github page. This application uses github API and react.",
+      "Calendar Application that uses moment to display a calendar and allows user to save notes of different hours during the day.",
     tileImg:
-      "url(https://user-images.githubusercontent.com/33443452/86619088-ed3e6180-bf87-11ea-8d87-6ec05ebfdcf2.png) center / cover",
-    linkGitHub: "https://github.com/carolninganga/react-github-finder",
-    linkDeployed: "https://github-repo-finder23.herokuapp.com/",
+      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-08%20at%208.43.32%20PM.png?v=1594255434301) center / cover",
+    linkGitHub: "https://github.com/carolninganga/Day_Planner",
+    linkDeployed: "https://carolninganga.github.io/Day_Planner/",
   },
   {
-    title: "4",
+    title: "She Sparkles Chat",
     description:
       "YesReply uses two APIs Words API and Linguatools to facilitate message generation for “life events”.",
     tileImg:
-      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover",
-    linkGitHub: "https://github.com/carolninganga/Yes-Reply-Project-One",
-    linkDeployed: "https://carolninganga.github.io/Yes-Reply-Project-One/",
-  },
-  {
-    title: "5",
-    description:
-      "YesReply uses two APIs Words API and Linguatools to facilitate message generation for “life events”.",
-    tileImg:
-      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096) center / cover",
-    linkGitHub: "https://github.com/carolninganga/Yes-Reply-Project-One",
-    linkDeployed: "https://carolninganga.github.io/Yes-Reply-Project-One/",
+      "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-08%20at%209.00.05%20PM.png?v=1594256432561) center / cover",
+    linkGitHub: "https://github.com/carolninganga/she-sprakles-chat-application",
+    linkDeployed: "https://she-sparkles-chat-app.herokuapp.com/",
   },
   {
     title: "6",
@@ -79,46 +79,7 @@ class Portfolio extends Component {
   };
 
   // toggleCategories() {
-  //   if (this.state.activeTab === 0) {
-  //     return (
-  //       <>
-  //         <Cell col={4}>
-  //           <Card shadow={5}>
-  //             <CardTitle
-  //               style={{
-  //                 color: "#fff",
-  //                 height: "176px",
-  //                 background:
-  //                   "url(https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.34.52%20PM.png?v=1594089329409) center / cover",
-  //               }}
-  //             ></CardTitle>
-  //             <CardText>
-  //               <h5>GitHub Finder</h5>
-  //               This application was built using react. It uses the github API
-  //               to search and display 5 repos of a github profile.
-  //             </CardText>
-  //             <CardActions border>
-  //               <Button
-  //                 target='_blank'
-  //                 rel='noopener noreferrer'
-  //                 href='https://github.com/carolninganga/react-github-finder'
-  //               >
-  //                 GitHub
-  //               </Button>
-  //               <Button
-  //                 target='_blank'
-  //                 rel='noopener noreferrer'
-  //                 href='https://github-repo-finder23.herokuapp.com/'
-  //               >
-  //                 Link to site
-  //               </Button>
-  //             </CardActions>
-  //             <CardMenu style={{ color: "#fff" }}>
-  //               <IconButton name='share' />
-  //             </CardMenu>
-  //           </Card>
-  //         </Cell>
-
+  //   
   //         <Cell col={4}>
   //           <Card shadow={5}>
   //             <CardTitle
@@ -192,33 +153,35 @@ class Portfolio extends Component {
     });
   };
 
-  // advancePagination = () => {
-  //   this.setState(
-  //     {
-  //       pagination:
-  //         this.state.pagination + this.state.limit < this.state.cards.length
-  //           ? this.state.pagination + this.state.limit
-  //           : this.state.pagination,
-  //     },
-  //     this.updateDisplay()
-  //   );
-  // };
-  // reversePagination = () => {
-  //   this.setState(
-  //     {
-  //       pagination:
-  //         this.state.pagination - this.state.limit < 0
-  //           ? 0
-  //           : this.state.pagination - this.state.limit,
-  //     },
-  //     this.updateDisplay()
-  //   );
-  // };
+  advancePagination = () => {
+    this.setState(
+      {
+        pagination:
+          this.state.pagination + this.state.limit < this.state.cards.length
+            ? this.state.pagination + this.state.limit
+            : this.state.pagination,
+      },
+      this.updateDisplay()
+    );
+  };
+  reversePagination = () => {
+    this.setState(
+      {
+        pagination:
+          this.state.pagination - this.state.limit < 0
+            ? 0
+            : this.state.pagination - this.state.limit,
+      },
+      this.updateDisplay()
+    );
+  };
 
   render() {
     return (
       <div>
         {/* <Grid>{this.toggleCategories()}</Grid> */}
+        <button onClick={this.reversePagination}> back </button>
+        <button onClick={this.advancePagination}>forward </button>
         <Grid>
           {this.state.display.map((card, i) => (
             <Cell col={4} key={i + "-projectCard"}>
