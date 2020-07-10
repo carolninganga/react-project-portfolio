@@ -59,7 +59,7 @@ export default class Home extends Component {
           <h1 className="HomePageText">
             Caroline Ning'ang'a
           </h1>
-          <p>Welcome to my world</p>
+          <p className="animate__animated animate__bounce">Welcome to my world</p>
           {/* <LayoutTextFields /> */}
         </div>
 
