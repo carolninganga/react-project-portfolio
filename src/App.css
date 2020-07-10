@@ -81,6 +81,10 @@
     color: rgb(245, 245, 245);
 }
 
+.resume-left-col p {
+    color: rgb(245, 245, 245);
+}
+
 .contact-body {
     background: #F0C27B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
@@ -94,32 +98,8 @@
     padding: 2rem;
 }
 
-.contact-grid {
-    position: relative;
-    text-align: center;
-    justify-content: center;
-    width: 80%;
-    height: 550px;
-    background: white;
-    color: black;
-    border: 2px solid rgb(16, 120, 143);
-    margin-bottom: 20px;
-}
 
-.contact-grid h2 {
-    font-family: 'Anton', sans-serif;
-}
 
-.contact-grid p {
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-}
-
-.contact-grid hr {
-    border-top: 5px dotted black;
-    width: 50%;
-    margin: auto;
-}
 
 
 
