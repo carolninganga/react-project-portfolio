@@ -4,11 +4,16 @@ body {
     font-family: sans-serif;
   }
 
-.HomePageText {
+#HomePageText {
   font-size: 65px;
   animation: reverse;
 }
 
-.animate__animated.animate__bounce {
-  --animate-duration: 2s;
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 6s;
 }
+
+.animate__animated.animate__backInDown {
+  --animate-duration: 6s;
+}
+

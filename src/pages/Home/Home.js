@@ -4,6 +4,7 @@ import React, { Component } from "react";
 import FluidAnimation from "../../react-fluid-animation";
 // import LayoutTextFields from "../LayoutTextFields/LayoutTextFields";
 import random from "random";
+import "animate.css"
 import './Home.css';
 
 const defaultConfig = {
@@ -56,13 +57,14 @@ export default class Home extends Component {
             pointerEvents: "none"
           }}
         >
-          <h1 className="HomePageText">
+          <h1 id="HomePageText" 
+              className="animate__animated animate__fadeInDown">
             Caroline Ning'ang'a
           </h1>
-          <p className="animate__animated animate__bounce">Welcome to my world</p>
+          <p className="animate__animated animate__backInDown">Welcome to my world</p>
           {/* <LayoutTextFields /> */}
         </div>
-
+        
       </div>
     );
   }

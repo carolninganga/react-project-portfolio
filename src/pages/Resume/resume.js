@@ -39,20 +39,26 @@ class Resume extends Component {
                        <Education 
                            startYear={2020}
                            endYear={2020}
-                           schoolName="Columbia University"
-                           schoolDescription="Participated in a Full Stack professional certification training. Acquired the skills of coding in JavaScript, HTML,Express.js, MonoDB and CSS. Used different tools and technologies to develop user friendly applications. Enjoyed close collaboration with other professionals while receiving hands-on experience, with in-person and online options.."
+                           schoolName="Coding Professional Training"
+                           schoolDescription="Columbia University, New York"
                        />
                        <Education 
                            startYear={2012}
                            endYear={2015}
-                           schoolName="Mount Saint Mary College"
-                           schoolDescription="Attended two years on a transfer academic honors scholarship from Westchester Community College. Studied Political Science and Economics Minor. Mount Saint Mary is a private college located in Newburgh with a beautiful view of the Hudson river."
+                           schoolName="Bachelors in History and Political Science Minor in Economics - Full Tuition Scholarship Recipient"
+                           schoolDescription="Mount Saint Mary College, New York"
                        />
                        <Education 
                            startYear={2010}
                            endYear={2012}
-                           schoolName="Westchester Community College"
-                           schoolDescription="Attended two years on a full tuition scholarship known as Kathryn Davis Global Communities Scholars. I majored in Liberal Arts and Social Sciences. While attending I also served as the president of the United Nations Model Team which allowed me to travel to over 16 cities on conferences to address matters in development and social economic policies."
+                           schoolName="Associate In Liberal Arts Social Sciences - Full Tuition Scholarship, Kathryn Davis Global Community Scholar."
+                           schoolDescription=" Wescheter Community College, New York"
+                       />
+                         <Education 
+                           startYear={2011}
+                           endYear={2011}
+                           schoolName="Certification in International Human Rights and LOAC in Peace Operations"
+                           schoolDescription=" Internation Institute of Humanitarian Law, Sanremo Italy"
                        />
                     
                        <hr style={{borderTop : '3px solid #000000'}} />
