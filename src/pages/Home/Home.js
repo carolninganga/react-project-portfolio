@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 //import "../../node_modules/react-dat-gui/build/react-dat-gui.css";
 import FluidAnimation from "../../react-fluid-animation";
-import LayoutTextFields from "../LayoutTextFields/LayoutTextFields";
+// import LayoutTextFields from "../LayoutTextFields/LayoutTextFields";
 import random from "random";
 import './Home.css';
 
@@ -59,7 +59,8 @@ export default class Home extends Component {
           <h1 className="HomePageText">
             Caroline Ning'ang'a
           </h1>
-          <LayoutTextFields />
+          <p>Welcome to my world</p>
+          {/* <LayoutTextFields /> */}
         </div>
 
       </div>
