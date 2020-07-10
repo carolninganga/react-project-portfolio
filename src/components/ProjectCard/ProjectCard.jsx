@@ -8,6 +8,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import styles from './style.module.css'
 
 const useStyles = makeStyles({
     root: {
@@ -27,11 +28,12 @@ function ProjectCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
+          animate__fadeInLeftBig
           image={props.img}
           title={props.title}
         />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
+          <Typography class="animate__animated animate__zoomIn" gutterBottom variant="h6" component="h4">
             {props.name}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
@@ -40,10 +42,10 @@ function ProjectCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button a target='_blank' rel="noopener noreferrer" size="small" color="primary" href={props.github}>
+        <Button id={styles.linkBtn} a target='_blank' rel="noopener noreferrer" size="small" color="primary" href={props.github}>
         GitHub
         </Button>
-        <Button a target='_blank' rel="noopener noreferrer" size="small" color="primary" href={props.site}>
+        <Button id={styles.linkBtn} a target='_blank' rel="noopener noreferrer" size="small" color="primary" href={props.site}>
         Live Site
         </Button>
       </CardActions>

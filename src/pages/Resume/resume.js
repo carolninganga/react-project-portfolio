@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Education from '../../components/education';
 import Experince from '../../components/experience';
-import Skills from '../../components/skills';
+// import Skills from '../../components/skills';
 import './style.css';
 
 import { Grid, Cell } from 'react-mdl';
@@ -130,7 +130,95 @@ class Resume extends Component {
                            jobDescription="Senior Call Center Representertive"
                        />
                     <hr style={{borderTop : '3px solid #e22947'}} />
-                    <h2>Skills</h2>
+
+                    <div className="detail-section pg-skill">
+                    <div className="detail-title">
+                    <div className="title-icon">
+                        <i className="fas fa-diamond"></i>
+                    </div>
+                    <span><h2>Skills</h2></span>
+                    </div>
+                    <div className="detail-content">
+                    <ul className="pg-list">
+                        <li>
+                        <span>Javascript</span>
+                        <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "70%"}}></div>
+                        </div>
+                        </li>
+                        <li>
+                        <span>jQuery</span>
+                        <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "70%"}}></div>
+                        </div>
+                        </li>
+                        <li>
+                        <span>NodeJS</span>
+                        <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "70%"}}></div>
+                        </div>
+                        </li>
+                        <li>
+                        <span>SQL</span>
+                        <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "85%"}}></div>
+                        </div>
+                        </li>
+                        <li>
+                        <span>Python</span>
+                        <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "70%"}}></div>
+                        </div>
+                        </li>
+                        <li>
+                            <span>Tableau</span> 
+                            <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "70%"}}></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>HTML</span> 
+                            <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "90%"}}></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>CSS</span> 
+                            <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "70%"}}></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>VBA</span> 
+                            <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "65%"}}></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>React</span> 
+                            <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "65%"}}></div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <span>Excel</span> 
+                            <div className="sb-skeleton">
+                            <div className="skillbar" style={{"--pgbar-length": "80%"}}></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                    </div>
+                    </div>
+                    
+                
+
+                    {/* <h2>Skills</h2>
                     <div className="sb-skeleton">
                         <Skills 
                             skill="javascript"
@@ -173,7 +261,7 @@ class Resume extends Component {
                             skill="React"
                             progress={60}
                         />
-                        </div>
+                        </div> */}
                    </Cell>
                </Grid>
             </div>

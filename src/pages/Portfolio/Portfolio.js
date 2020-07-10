@@ -1,7 +1,7 @@
 
 import React from 'react';
-import ProjectCard from '../../components/ProjectCard';
-import './style.css';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
+
 
 
 export default function Portfolio() {

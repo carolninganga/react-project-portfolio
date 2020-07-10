@@ -1,0 +1,15 @@
+
+  #linkBtn:hover { 
+    transform: translate(0px, 2px);
+    letter-spacing: 0.1em; 
+    border-radius: 40px;
+    background: var(--gradient-color);
+    }
+    
+    #linkBtn {
+        background: var(--gradient-color);
+    }
+    #linkBtn:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
