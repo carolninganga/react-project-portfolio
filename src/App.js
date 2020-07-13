@@ -15,7 +15,7 @@ function App() {
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/blog">Blog</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
@@ -23,7 +23,7 @@ function App() {
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/blog">Blog</Link>
             </Navigation>
         </Drawer>
         <Content> 
