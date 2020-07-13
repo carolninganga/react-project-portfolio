@@ -7,7 +7,7 @@ export default function Blog() {
     
     <div className="main">
       <h1>Blog</h1>
-      <BlogCard />
+      <BlogCard className="importedCard" />
   
     </div>
   );

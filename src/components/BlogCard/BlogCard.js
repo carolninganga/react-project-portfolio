@@ -61,7 +61,7 @@ export default function RecipeReviewCard() {
           </IconButton>
         }
         title="Living Abroad"
-        subheader="September 14, 2016"
+        subheader="July 12th, 2020"
       />
       <CardMedia
         className={classes.media}
