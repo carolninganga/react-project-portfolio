@@ -5,10 +5,15 @@ import './style.css';
 export default function Blog() {
   return (
     
-    <div className="main">
-      <h1>Blog</h1>
-      <BlogCard className="importedCard" />
-  
+    <div className="container">
+       <div className="row">
+          <h1>Blog</h1>
+         <div className="col-md-12">
+          <div className="card">
+          <BlogCard className="importedCard" />
+          </div>
+          </div>
+      </div>
     </div>
   );
 }

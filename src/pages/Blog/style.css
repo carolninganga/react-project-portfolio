@@ -15,10 +15,19 @@ h1, p {
   padding: 0;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 7rem;
   font-family: 'Dancing Script';
+  text-align: center;
+}
+.card{
+  align-content: unset;
 }
 
 .main {
-  margin: 15px;
+  margin: 20px;
+  width: 60%;
+}
+
+.makeStyles-root-1 {
+  max-width: 100% !important;
 }

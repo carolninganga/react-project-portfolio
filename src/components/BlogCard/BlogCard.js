@@ -93,7 +93,6 @@ export default function RecipeReviewCard() {
       </CardActions>
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
-          <Typography paragraph>Method:</Typography>
           <Typography paragraph>
             At the fragile age of 17, I packed my bags and left my country, Malawi, Africa. I had never left Malawi and was travelling without family. This meant every challenge I encountered I had to resolve myself. Upon my arrival, I had mixed emotions. The feeling resembled that of driving on the highway for the first time. I had two options: break down and crash or courageously enjoy the ride. During my freshman year at Westchester Community College, I involved myself in many volunteer activities. Due to my dedication, I was selected Orientation Leader/Peer Advisor, Student Ambassador and was awarded a full-tuition scholarship for Community service.
 
