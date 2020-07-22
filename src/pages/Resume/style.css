@@ -17,6 +17,10 @@
     --percent: 100;
 }
 
+.title {
+    text-align: center;
+}
+
 
 * {
     box-sizing: border-box;
@@ -103,6 +107,11 @@ body {
     color: var(--profile-theme);
     width: 20px;
     height: 20px;
+
+}
+
+.description {
+    color: rgb(0, 0, 0) !important;
 }
 
 .link a {
@@ -293,6 +302,7 @@ body {
     }
     .intro-section {
         padding: 0 2rem;
+        color: #f8f8f8;
     }
     .profile {
         margin-bottom: 1rem;
@@ -316,3 +326,7 @@ body {
         font-size: 70%;
     }
 } 
+
+.title {
+    text-align: center !important;
+}

@@ -24,6 +24,12 @@ export default function Portfolio() {
                     site="https://github-repo-finder23.herokuapp.com/"
                       />
                 <ProjectCard 
+                    img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-22%20at%201.36.32%20PM.png?v=1595439410450"
+                    name="ConvenienC"
+                    description="A MERN application that supports small businesses by advertising available essential products."
+                    github="https://github.com/carolninganga/convenienc2"
+                    site="https://convenienc.herokuapp.com/"/>
+                <ProjectCard 
                     img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-08%20at%207.27.06%20PM.png?v=1594250868304"
                     name="Fantastic Joke App"
                     description="An app that uses jokes API to randomly generate jokes. This application was implemented using axios to fetch the API."
@@ -38,11 +44,11 @@ export default function Portfolio() {
                     site="https://foodie-me.herokuapp.com/"
                     />
                 <ProjectCard 
-                    img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-06-26%20at%202.03.34%20PM.png?v=1593194643900"
-                    name="Note Taker"
+                    img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-14%20at%208.02.10%20PM.png?v=1594771401146"
+                    name="Everyday Notes"
                     description="A note taking application that uses allows the user to create, update and delete saved notes."
                     github="https://github.com/carolninganga/note-taker-nodejs"
-                    site="https://note-take-nodejs.herokuapp.com/"
+                    site="https://quiet-eyrie-39742.herokuapp.com/"
                 />
                 <ProjectCard 
                     img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-08%20at%209.00.05%20PM.png?v=159425643256"

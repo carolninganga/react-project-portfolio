@@ -23,7 +23,7 @@ class Resume extends Component {
                    <h2 className="carolName" style={{paddingTop: '2em'}}>Caroline Ninganga</h2>
                    <h4 style={{color: 'grey'}}>Programmer</h4>
                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
-                   <p>I'm a software engineer who's passionate about people, innovation, and executing new ideas. My professional training certification in HTML, CSS and JavaScript has  allowed me to develop a creative mindset that can be used to build projects which solve problems for people. I love the thrill of exploring and implementing interactive and responsive applications in collaboration with other developers. Outside of programming, you can find me hiking, food tasting, traveling, or participating on projects that use technology to conquer social economic issues. </p>
+                   <p className="description">I'm a software engineer who's passionate about people, innovation, and executing new ideas. My professional training certification in HTML, CSS and JavaScript has  allowed me to develop a creative mindset that can be used to build projects which solve problems for people. I love the thrill of exploring and implementing interactive and responsive applications in collaboration with other developers. Outside of programming, you can find me hiking, food tasting, traveling, or participating on projects that use technology to conquer social economic issues. </p>
                    <hr style={{borderTop: '3px solid #213346', width: '50%'}}/>
                     <h5>Web</h5>
                     <p>mywebsite.com</p>
@@ -44,7 +44,7 @@ class Resume extends Component {
                     </div> 
                 </div>
                 <div className="intro-section follow">
-                    <h1 className="title">Connect</h1>
+                    <h1 className="title text-center">Connect</h1>
                     <div className="info-section link">
                     <i className="fab fa-github"></i>
                     <a target='_blank' rel="noopener noreferrer" href="https://github.com/carolninganga">
