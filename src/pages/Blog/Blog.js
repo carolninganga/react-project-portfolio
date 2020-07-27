@@ -1,5 +1,6 @@
 import React from "react";
 import BlogCard from "../../components/BlogCard/BlogCard";
+import Footer from '../../components/Footer/Footer';
 import "./style.css";
 
 export default function Blog() {
@@ -11,6 +12,7 @@ export default function Blog() {
           <div className="card">
             <BlogCard className="importedCard" />
           </div>
+          <Footer />
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../components/Footer/Footer';
 import ProjectCard from '../../components/ProjectCard/ProjectCard';
 const gridContainerStyle = {
   display: "grid",
@@ -8,7 +9,8 @@ const gridContainerStyle = {
 }
 export default function Portfolio() {
   return (
-    <div className="container" style={gridContainerStyle}>
+    <>
+    <div className="container projectcontainer" style={gridContainerStyle}>
                 <ProjectCard 
                     img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FScreen%20Shot%202020-07-06%20at%2010.48.44%20PM.png?v=1594090135096"
                     name="Yes Reply"
@@ -57,5 +59,9 @@ export default function Portfolio() {
                     github="https://github.com/carolninganga/she-sprakles-chat-application"
                     site="https://she-sparkles-chat-app.herokuapp.com/"/>
     </div>
+    <div className="foot text-center">
+      <Footer />
+    </div>
+    </>
   );
 }

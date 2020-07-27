@@ -1,0 +1,9 @@
+
+@media only screen and (max-width: 768px) {
+        .projectcontainer {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+        grid-gap: 3rem
+      }
+  }

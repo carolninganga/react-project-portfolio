@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Footer from '../../components/Footer/Footer';
 
 //import "../../node_modules/react-dat-gui/build/react-dat-gui.css";
 import FluidAnimation from "../../react-fluid-animation";
@@ -62,9 +63,11 @@ export default class Home extends Component {
             Caroline Ning'ang'a
           </h1>
           <p className="animate__animated animate__backInDown">Welcome to my world</p>
-          
         </div>
         
+        <div>
+        <Footer />
+        </div>
       </div>
     );
   }
