@@ -1,34 +1,24 @@
-import React from "react";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
-import { Link } from "react-router-dom";
-import "./App.css";
+import React from 'react';
+import './App.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Portfolio from './pages/Portfolio/Portfolio';
+import Resume from './pages/Resume/Resume';
+import Blog from './pages/Blog/Blog';
+
+
 
 function App() {
   return (
-    <div className="demo-big-content">
-      <Layout>
-        <Header className="header-color" scroll>
-          <Navigation className="nav">
-            <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/blog">Blog</Link>
-          </Navigation>
-        </Header>
-        <Drawer title="Title">
-          <Navigation>
-            <Link to="/">Home</Link>
-            <Link to="/resume">Resume</Link>
-            <Link to="/portfolio">Portfolio</Link>
-            <Link to="/blog">Blog</Link>
-          </Navigation>
-        </Drawer>
-        <Content>
-          {/* <div className="page-content" /> */}
-          <Main />
-        </Content>
-      </Layout>
+    <div className="App">
+
+    <BrowserRouter>
+      <Route exact path='/' component={Home}/>
+      <Route path='/portfolio' component={Portfolio}/> 
+      <Route path='/resume' component={Resume}/>
+      <Route path='/blog' component={Blog}/> 
+    </BrowserRouter> 
+
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.card {
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 400px;
+}
+
+.mediaCard{
+    background: url("https://m.media-amazon.com/images/M/MV5BMjM3NTc5ODQyN15BMl5BanBnXkFtZTgwNzE1MDMzNTE@._V1_SX1777_CR0,0,1777,981_AL_.jpg") center/cover;
+    height: 250px;
+    width: 100%;
+}
+
+
+.bottomText{
+    color: #445b73;
+}
+
+.topCard {
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.bottomCard {
+    padding: 20px;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: #ffc107;
+}
+
+.actions:hover {
+    color: #eed7c5;
+}

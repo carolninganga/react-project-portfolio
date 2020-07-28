@@ -1,0 +1,21 @@
+#logo {
+    font-size: 1.4em;
+}
+
+.myNav a:hover{
+    color: #ffc107;
+}
+
+
+a:hover {
+  text-decoration: none;
+  outline: none;
+  color: #ffc107;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
