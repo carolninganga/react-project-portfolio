@@ -7,14 +7,16 @@ function Project(props) {
             <div className="col-md-4 justify-content-center">
             <div className="card">
                 <div className={styles.topCard}>
-                <h4 className="text-center">Título do card</h4>
+                <h4 className="text-center">{props.name}</h4>
                 </div>
-                <div className={styles.mediaCard}></div>
+                <div className={styles.mediaCard}>
+                <img src={props.img} className="card-img-top" alt="project"/>
+                </div>
                 <div className={styles.bottomCard}>
-                <p className={styles.bottomText}>Aqui é um texto exemplo de resumo da página ou do documento que o card trata.</p>
+        <p className={styles.bottomText}>{props.description }</p>
                 <div className="text-center">
-                    <button className={styles.actions}><i class="fab fa-internet-explorer"></i> VISIT SITE</button>
-                    <button className={styles.actions}><i class="fab fa-github"></i> GITHUB</button>
+                <a target='_blank' rel="noopener noreferrer" href={props.site}><button className={styles.actions}><i class="fab fa-internet-explorer"></i> VISIT SITE</button></a>
+                <a target='_blank' rel="noopener noreferrer" href={props.github}><button className={styles.actions}><i class="fab fa-github"></i> GITHUB</button></a>
                 </div>
              </div>
             </div>
@@ -23,3 +25,10 @@ function Project(props) {
 }
 
 export default Project;
+
+{/* <div className="col-6 m-0">
+                      <a target='_blank' rel="noopener noreferrer" href={props.github} id={styles.learnMoreBtn} className="btn waves-effect waves-light white-text">GitHub</a>
+                    </div>
+                    <div className="col-6 m-0">
+                      <a target='_blank' rel="noopener noreferrer" href={props.site} id={styles.learnMoreBtn} className="btn waves-effect waves-light white-text">Live Site</a>
+                    </div> */}

@@ -11,79 +11,79 @@ class Portfolio extends Component {
             <div class="container-fluid mt-4 mb-0 pb-3">
                 <div class="row pb-0 mb-0">
                 <Project 
-                img="https://cdn.glitch.com/2e860639-24bb-4041-8055-aed7de1c1244%2Fimg-project1.jpeg?v=1584760380680"
-                name="Quiz App"
-                description="A Quiz Contains 8 Multiple Choice Questions"
-                github="https://github.com/PhoebeYahengWu/JS-Quiz-App"
-                site="https://phoebeyahengwu.github.io/JS-Quiz-App/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fperson-holding-black-samsung-android-smartphone-3850213.jpg?v=1595950898188"
+                name="Foodie"
+                description="Favorite food app"
+                github="https://github.com/carolninganga/foodie"
+                site="https://foodie03.herokuapp.com/" 
                 />
 
                 <Project 
-                img="https://cdn.glitch.com/2e860639-24bb-4041-8055-aed7de1c1244%2Fimg-project2.jpeg?v=1581869386824"
-                name="Weather App"
-                description="Provide Current and Next 5 Day's Weather"
-                github="https://github.com/PhoebeYahengWu/Weather-Forecast-Web-App-With-jQuery"
-                site="https://phoebeyahengwu.github.io/Weather-Forecast-Web-App-With-jQuery/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fhuman-skeleton-sitting-in-bathtub-without-water-4558292.jpg?v=1595950367357"
+                name="Joke App"
+                description="Generates random jokes"
+                github="https://github.com/carolninganga/joke-app"
+                site="https://joke-master007.herokuapp.com/" 
                 />
 
                 <Project 
-                img="https://cdn.glitch.com/2e860639-24bb-4041-8055-aed7de1c1244%2Fproject-4.jpg?v=1585088113836"
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2FIntroducing-GitHub-Search_-Your-Source-for-Finding-and-Qualifying-Dev-Talent.png?v=1595947093627"
                 name="React GitHub Finder"
-                description="Enter Username to Bring Back GitHub Profile"
-                github="https://github.com/PhoebeYahengWu/react-github-finder"
-                site="https://react-github-profile-finder.herokuapp.com/" 
+                description="Search through name to get github profile"
+                github="https://github.com/carolninganga/react-github-finder"
+                site="https://github-repo-finder23.herokuapp.com/" 
                 />
                 </div>
 
                 <div class="row pb-0 mb-0">
                 <Project 
-                img="https://cdn.glitch.com/0767e857-f6a4-4140-abf7-e98c33465c4c%2Fback-img9.jpeg?v=1586475851196"
-                name="Stock Comparison"
-                description="Visualize Stock Price Based on Input Tickers"
-                github="https://github.com/PhoebeYahengWu/FinancialDashboard"
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fsticky-note-lot-1629212.jpg?v=1595950683887"
+                name="Eveyday Notes"
+                description="User can save hourly notes"
+                github="https://github.com/carolninganga/Everyday-Notes"
                 site="https://phoebeyahengwu.github.io/FinancialDashboard/" 
                 />
 
                 <Project 
-                img="https://cdn.glitch.com/2e860639-24bb-4041-8055-aed7de1c1244%2FNewYorkTimes2.jpg?v=1583955630273"
-                name="The New York Times"
-                description="Retrieve Top 10 articles Based on Keywords"
-                github="https://github.com/PhoebeYahengWu/New-York-Times-Article-Search-AJAX"
-                site="https://phoebeyahengwu.github.io/New-York-Times-Article-Search-AJAX/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Ftoilet-paper-rolls-on-basket-3958199.jpg?v=1595951126596"
+                name="ConvenienC"
+                description="Essential products app"
+                github="https://github.com/carolninganga/convenienc2"
+                site="https://convenienc.herokuapp.com/" 
                 />
 
                 <Project 
-                img="https://cdn.glitch.com/f28949c6-6f44-4abb-a9a1-6a9e90371a91%2Fimage-3.jpeg?v=1588474053478"
-                name="Database UI"
-                description="Create User Interface for MySQL Database"
-                github="https://github.com/PhoebeYahengWu/Company-Database-UI"
-                site="https://database-user-interface.herokuapp.com/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2F20191219170611-GettyImages-1152794789.jpeg?v=1595948806874"
+                name="Google Book Search"
+                description="Search and Save books on google"
+                github="https://github.com/carolninganga/google-book-search"
+                site="https://google-search-with-google.herokuapp.com/" 
                 />
                 </div>
 
                 <div class="row pb-0 mb-0">
                 <Project 
-                img="https://cdn.glitch.com/0818f487-5b8b-4080-900d-ad787673d146%2FportfolioImg.jpg?v=1591420769410"
-                name="Real-Time Poll"
-                description="Display poll result with Pusher and CanvasJS"
-                github="https://github.com/PhoebeYahengWu/real-time-poll-app"
-                site="https://real-time-poll-app.herokuapp.com/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fcolor-colour-fitness-health-39671.jpg?v=1595950573426"
+                name="Mphavu"
+                description="A workout tracker app"
+                github="https://github.com/carolninganga/Workout-Tracker"
+                site="https://mphavu.herokuapp.com/exercise?id=5f203f93073b0d001720fddd" 
                 />
 
                 <Project 
-                img="https://cdn.glitch.com/0818f487-5b8b-4080-900d-ad787673d146%2FportfolioImg2.jpg?v=1591592009590"
-                name="Real-Time Chat Room"
-                description="Enter any room with friends and start chat"
-                github="https://github.com/PhoebeYahengWu/real-time-chat-room"
-                site="https://real-time-truth-chat-room.herokuapp.com/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fchat.jpg?v=1595950216602"
+                name="Chat-Room app"
+                description="Switch between rooms to chat"
+                github="https://github.com/carolninganga/real_time_chat"
+                site="https://she-sparkles-chat-app.herokuapp.com/" 
                 />
 
                 <Project 
-                img="https://cdn.glitch.com/0818f487-5b8b-4080-900d-ad787673d146%2Fmovie.jpeg?v=1592283143988"
-                name="Movie Information Search"
-                description="Enter movie name to attain ratings and plot"
-                github="https://github.com/PhoebeYahengWu/movie-search-tool"
-                site="https://omdb-movie-search-tool.herokuapp.com/" 
+                img="https://cdn.glitch.com/823d971b-2ee5-4e17-bb98-ec24b973c4c0%2Fpurple-petaled-glower-besode-pen-2072162.jpg?v=1595952155789"
+                name="Yes Reply"
+                description="Generates Life event messages"
+                github="https://github.com/carolninganga/Yes-Reply-Project-One"
+                site="https://carolninganga.github.io/Yes-Reply-Project-One/" 
                 />
                 </div>
                 </div>
