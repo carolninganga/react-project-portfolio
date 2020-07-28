@@ -25,7 +25,7 @@ class Navbar extends Component {
                                 <li className="myNav"><Link to="/">Home</Link></li>
                                 <li className="myNav"><Link to="/portfolio">Portfolio</Link></li>
                                 <li className="myNav"><Link to="/resume">Resume</Link></li> 
-                                <li className="myNav"><Link to="/blog">Blog</Link></li> 
+                                {/* <li className="myNav"><Link to="/blog">Blog</Link></li>  */}
                             </ul>
                         </div>
                     </nav>
